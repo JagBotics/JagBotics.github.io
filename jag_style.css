@@ -1,0 +1,416 @@
+
+html, body{
+  margin-top: 0;
+  border: 0;
+  margin:0;
+  padding:0;
+  color: white;
+  height: 100%;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.bar {
+  width: 100%;
+  height: 10%;
+  animation-name: colour;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+            
+@keyframes colour {
+    0%{background: white;}
+    20%{background: #78b7ff;}
+    40%{background: #0377fc;}
+    60%{background: #003a7d;}
+    80%{background: #78b7ff;}
+    100%{background: white;}
+}
+
+
+h2{
+  font-size: 210%;
+  margin-left: 10%;
+}
+
+p{
+  font-size: 125%;
+  margin-left: 10%;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.mainTwo{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #005eff;
+  overflow: hidden;
+}
+.mainVideo{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+.title{
+  margin-top: 0%;
+  border: 0;
+  padding:0;
+  height: 100%;
+  font-size: 200%;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, black, #003adb);
+  color: white;
+}
+.titleimg{
+  max-height: 62%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textOne{
+  background-color: black;
+  margin-left: 0%;
+  margin-top: 0;
+  border: 0;
+  padding:0;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.textTwo{
+  background-color: #005eff;
+  margin-right: 0%;
+  margin-top: 0;
+  border: 0;
+  padding:0%;
+  height: 100%;
+  width: 50%;
+  float: right;
+
+}
+
+.image{
+  opacity: 1;
+  width: 50%;
+  float: left;
+  height: 100%;
+  
+}
+
+.imager{
+  position: absolute;
+  top: 90%;
+  right: 55%;
+  transform: translate(150%, -50%);
+  font-size: 150%;
+}
+
+.imageTwo{
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+
+.imagerTwo{
+  position: absolute;
+  top: 90%;
+  right: 80%;
+  transform: translate(150%, -50%);
+  font-size: 150%;
+  visibility: hidden;
+  height: 100%;
+}
+
+video{
+  margin: auto 0px;
+  display: block;
+  position: relative;
+}
+.vid{
+  text-align: center;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+/*Phones*/
+@media only screen
+  and (max-width: 500px)
+  and (max-height: 1000px)
+  and (min-width: 0px)
+  and (min-height: 0px){
+  /* For mobile phones: */
+  html,body{
+    margin-top: 0;
+    border: 0;
+    margin:0;
+    padding:0;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  
+  h2{
+    font-size: 190%;
+    margin-left: 10%;
+  }
+  
+  p{
+    font-size: 120%;
+  }
+  #bar{
+    visibility: hidden;
+  }
+  .bar {
+    width: 100%;
+    height: 10%;
+    animation-name: colour;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+
+  .main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .mainVideo{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+  }
+  .title{
+    margin-top: 0%;
+    border: 0;
+    padding:0;
+    height: 40%;
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, black, #003adb);
+    color: white;
+  }
+  .titleimg{
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: hidden;
+  }
+  
+  .textOne{
+    background-color: black;
+    margin-left: 0%;
+    margin-top: 0;
+    border: 0;
+    padding:0;
+    height: 50%;
+    width: 100%;
+    float: left;
+  }
+  
+  .textTwo{
+    background-color: #005eff;
+    margin-right: 0%;
+    margin-top: 0;
+    border: 0;
+    padding:0;
+    height: 50%;
+    width: 100%;
+    float: left;
+  
+  }
+  
+  .image{
+    width: 100%;
+    height: 50%;
+    float: left;
+  }
+  
+  .imager{
+    visibility: hidden;
+  }
+  .imagerTwo{
+    visibility: hidden;
+  }
+  
+  .imageTwo{
+    width: 100%;
+    height: 50%;
+    float: left;
+  }
+}
+
+/*iPads*/
+@media only screen
+  and (max-width: 1000px)
+  and (max-height: 1400px)
+  and (min-width: 540px)
+  and (min-height: 720px){
+  html, body{
+    margin-top: 0;
+    border: 0;
+    margin:0;
+    padding:0;
+    color: white;
+    height: 100%;
+    background-color: black;
+    overflow-x: hidden;
+  }
+  .mainVideo{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+  }
+  h2{
+    font-size: 210%;
+    margin-left: 10%;
+  }
+  
+  p{
+    font-size: 145%;
+    margin-left: 10%;
+  }
+
+  .bar {
+    width: 100%;
+    height: 10%;
+    animation-name: colour;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  .main{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+  }
+  .mainTwo{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+  }
+  .title{
+    margin-top: 0%;
+    border: 0;
+    padding:0;
+    height: 50%;
+    font-size: 200%;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, black, #003adb);
+    color: white;
+  }
+  .titleimg{
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .textOne{
+    background-color: black;
+    margin-left: 0%;
+    margin-top: 0;
+    border: 0;
+    padding:0;
+    height: 50%;
+    width: 50%;
+    float: left;
+  }
+  
+  .textTwo{
+    background-color: #005eff;
+    margin-right: 0%;
+    margin-top: 0;
+    border: 0;
+    padding:0%;
+    height: 50%;
+    width: 50%;
+    float: right;
+  
+  }
+  
+  .image{
+    width: 50%;
+    float: left;
+    height: 100%;
+  }
+  
+  .imageTwo{
+    width: 50%;
+    float: left;
+    height: 100%;
+  }
+  .imager{
+    visibility: hidden;
+  }
+  .imagerTwo{
+    visibility: hidden;
+  }
+}
+
+/*galaxy fold*/
+
+@media only screen
+  and (max-width: 300px)
+  and (max-height: 750px)
+  and (min-width: 260px)
+  and (min-height: 600px){
+    h1{
+      font-size: 150%;
+    }
+    h2{
+      font-size: 125%;
+    }
+    p{
+      font-size: 110%;
+    }
+}
+
+/*surface duo*/
+@media only screen
+  and (max-width: 560px)
+  and (max-height: 750px)
+  and (min-width: 500px)
+  and (min-height: 700px){
+
+    h2{
+      font-size: 125%;
+    }
+    p{
+      font-size: 110%;
+    }
+    .mainVideo{
+      height: 50%;
+    }
+}
+/*surface pro 7*/
+@media only screen
+  and (max-width: 950px)
+  and (max-height: 1400px)
+  and (min-width: 880px)
+  and (min-height: 1300px){
+    h1{
+      font-size: 300%;
+    }
+    h2{
+      font-size: 250%;
+    }
+    p{
+      font-size: 200%;
+    }
+}
+
+
+
