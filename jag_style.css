@@ -110,10 +110,11 @@ p{
 .imager{
   position: absolute;
   top: 90%;
-  float: right;
+  float: left;
   transform: translate(150%, -50%);
   font-size: 150%;
   visibility: hidden
+  height: 100%
 }
 
 .imageTwo{
