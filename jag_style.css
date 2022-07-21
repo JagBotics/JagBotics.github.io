@@ -110,7 +110,6 @@ p{
 .imager{
   position: absolute;
   top: 90%;
-  float: left;
   transform: translate(150%, -50%);
   font-size: 150%;
   visibility: hidden
@@ -127,7 +126,6 @@ p{
 .imagerTwo{
   position: absolute;
   top: 90%;
-  float: left;
   transform: translate(150%, -50%);
   font-size: 150%;
   visibility: hidden;
