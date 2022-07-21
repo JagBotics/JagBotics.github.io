@@ -110,7 +110,7 @@ p{
 .imager{
   position: absolute;
   top: 90%;
-  right: 55%;
+  float: right;
   transform: translate(150%, -50%);
   font-size: 150%;
   visibility: hidden
@@ -126,7 +126,7 @@ p{
 .imagerTwo{
   position: absolute;
   top: 90%;
-  right: 80%;
+  float: left;
   transform: translate(150%, -50%);
   font-size: 150%;
   visibility: hidden;
@@ -240,11 +240,9 @@ video{
   
   .imager{
     visibility: hidden;
-    float: right;
   }
   .imagerTwo{
     visibility: hidden;
-    float: left;
   }
   
   .imageTwo{
