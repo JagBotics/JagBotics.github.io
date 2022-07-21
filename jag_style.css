@@ -240,9 +240,11 @@ video{
   
   .imager{
     visibility: hidden;
+    float: right;
   }
   .imagerTwo{
     visibility: hidden;
+    float: left;
   }
   
   .imageTwo{
