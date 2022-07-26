@@ -59,6 +59,7 @@ p{
   height: 100%;
   margin: auto;
   position: relative;
+  preload: auto;
 }
 .title{
   margin-top: 0%;
