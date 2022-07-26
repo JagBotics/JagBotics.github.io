@@ -64,3 +64,15 @@ testFour.addEventListener("mouseenter", function( event ) {
     elem.style.visibility = "hidden"
   }, 1500);
 }, false);
+
+testFive.addEventListener("mouseenter", function( event ) {
+  // highlight the mouseenter target
+  event.target.style.opacity = ".3";
+  var elem = document.getElementById('testerFive');
+  elem.style.visibility = "visible";
+  // reset the color after a short delay
+  setTimeout(function() {
+    event.target.style.opacity = "1";
+    elem.style.visibility = "hidden"
+  }, 1500);
+}, false);
