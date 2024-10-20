@@ -115,8 +115,8 @@ p{
 
 .imager{
   position: absolute;
-  top: 90%;
-  right: 50%;
+  top: 50%;
+  right: 25%;
   font-size: 150%;
   visibility: hidden;
   height: 100%;
@@ -131,8 +131,8 @@ p{
 
 .imagerTwo{
   position: absolute;
-  top: 90%;
-  right: 150%;
+  top: 50%;
+  right: 75%;
   font-size: 150%;
   visibility: hidden;
   height: 100%;
