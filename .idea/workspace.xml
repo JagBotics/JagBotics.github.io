@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46bdbd43-4424-4b48-b554-15d3d53cfa6b" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jag_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jag_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729475048144</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="commit">
+      <created>1729475381997</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1729475381997</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
