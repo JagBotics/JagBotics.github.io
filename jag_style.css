@@ -8,9 +8,11 @@ html, body{
   height: 100%;
   background-color: black;
   overflow-x: hidden;
+  scroll-snap-type: y proximity;
 }
 
 .child{
+  scroll-snap-align: start;
   }
 
 a:visited, a:link {
