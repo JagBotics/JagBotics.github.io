@@ -54,7 +54,6 @@ p{
   margin: auto;
   position: relative;
   overflow: hidden;
-  scroll-snap-align: start;
 }
 .mainTwo{
   width: 100%;
