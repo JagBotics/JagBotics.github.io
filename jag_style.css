@@ -13,7 +13,7 @@ html, body{
 
 .child{
   scroll-snap-align: start;
-}
+  }
 
 a:visited, a:link {
     color: white
