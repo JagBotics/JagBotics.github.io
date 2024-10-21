@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46bdbd43-4424-4b48-b554-15d3d53cfa6b" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/jag_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jag_style.css" afterDir="false" />
-    </list>
+    <list default="true" id="46bdbd43-4424-4b48-b554-15d3d53cfa6b" name="Default Changelist" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -348,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729477496560</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="commit">
+      <created>1729477683078</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1729477683078</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
