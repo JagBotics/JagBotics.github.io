@@ -8,14 +8,17 @@ html, body{
   height: 100%;
   background-color: black;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .container{
  scroll-snap-type: y mandatory;
+ height:100%
 }
 
 .child{
   scroll-snap-align: start;
+  height: 100%;
 }
 
 a:visited, a:link {
