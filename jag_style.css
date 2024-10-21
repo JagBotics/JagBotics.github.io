@@ -11,6 +11,10 @@ html, body{
   scroll-snap-type: y mandatory;
 }
 
+.child{
+  scroll-snap-align: start;
+}
+
 a:visited, a:link {
     color: white
 }
@@ -59,7 +63,6 @@ p{
   position: relative;
   background-color: #005eff;
   overflow: hidden;
-  scroll-snap-align: start;
 }
 .mainVideo{
   width: 100%;
@@ -67,7 +70,6 @@ p{
   margin: auto;
   position: relative;
   preload: auto;
-  scroll-snap-align: start;
 }
 .title{
   margin-top: 0%;
@@ -78,7 +80,6 @@ p{
   text-align: center;
   background-image: linear-gradient(to bottom right, black, #003adb);
   color: white;
-  scroll-snap-align: start;
 }
 .titleimg{
   max-height: 62%;
