@@ -9,7 +9,8 @@ html, body{
   background-color: black;
   overflow-x: hidden;
   scroll-snap-type: y mandatory;
-}
+  }
+
 
 .child{
   scroll-snap-align: start;
