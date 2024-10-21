@@ -51,14 +51,14 @@ p{
 
 .main{
   width: 100%;
-  height: 100%;
+  height: auto;
   margin: auto;
   position: relative;
   overflow: hidden;
 }
 .mainTwo{
   width: 100%;
-  height: 100%;
+  height: auto;
   margin: auto;
   position: relative;
   background-color: #005eff;
@@ -70,6 +70,7 @@ p{
   margin: auto;
   position: relative;
   preload: auto;
+  overflow:hidden;
 }
 .title{
   margin-top: 0%;
