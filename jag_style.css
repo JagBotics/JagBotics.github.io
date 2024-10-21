@@ -13,7 +13,6 @@ html, body{
 
 .child{
   scroll-snap-align: start;
-  height: 100%
 }
 
 a:visited, a:link {
